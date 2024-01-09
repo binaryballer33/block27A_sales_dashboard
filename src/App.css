@@ -1,16 +1,4 @@
 .container {
   width: 99.9vw;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid green;
-}
-
-.box {
-    border: 1px solid red;
-    height: 500px;
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
