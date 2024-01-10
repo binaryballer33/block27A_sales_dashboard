@@ -4,7 +4,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 const SideBar = () => (
 	<Grid item xs={3}>
-		<Paper elevation={3} sx={{ height: "100vh", padding: '2rem', bgcolor: '#f4f4f4'}}>
+		<Paper elevation={3} sx={{ height: "100vh", padding: '1.5rem', bgcolor: '#f4f4f4'}}>
 			<MenuIcon sx={{ marginBottom: '1rem', paddingLeft: '3rem' }}/>
 			<Typography sx={{ textAlign: 'center', fontWeight: 'bold', fontSize: { xs: '1.25rem', md: '2.25rem', lg: '3rem' } }} variant="h3">The King's Restaurant</Typography>
 			<Typography sx={{ textAlign: 'center', color: 'teal', marginBottom: '2.5rem', fontSize: { xs: '1rem', md: '1.25rem' } }} variant="h6">Dashboard Owner</Typography>

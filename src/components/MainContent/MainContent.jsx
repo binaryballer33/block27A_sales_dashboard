@@ -30,72 +30,82 @@ const MainContent = () => (
 
 			{/* The Dashboards Part 1 */}
 			<Box display="flex">
-				<Box height="150px" width="300px" sx={{ bgcolor: '#f4f4f4', padding: '1rem' }}>
+				<Box height="125px" width="20%" sx={{ bgcolor: '#f4f4f4', padding: '1rem', display: 'flex', flexDirection: "column", justifyContent: 'space-evenly' }}>
 					<LocalAtmIcon sx={{ color: 'teal'}} />
           <Typography sx={{ fontWeight: 'bold' }} variant="body1">431,225</Typography>
-          <Typography sx={{ color: 'teal' }} variant="body2">Sales Obtained + 21%</Typography>
-				</Box>
-				<Box height="150px" width="300px" sx={{ bgcolor: '#f4f4f4', padding: '1rem' }} marginLeft='2rem'>
+          <Box sx={{ display: 'flex', color: 'teal', }}>
+            <Typography sx={{ flexGrow: 1  }} variant="body2">Sales Obtained</Typography>
+            <Typography sx={{ paddingRight: '1rem' }}>+ 21%</Typography>
+          </Box>
+        </Box>
+				<Box height="125px" width="20%" sx={{ bgcolor: '#f4f4f4', padding: '1rem', display: 'flex', flexDirection: "column", justifyContent: 'space-evenly'  }} marginLeft='2rem'>
 					<PersonAddIcon sx={{ color: 'teal'}} />
-          <Typography sx={{ fontWeight: 'bold' }} variant="body1">431,225</Typography>
-          <Typography sx={{ color: 'teal' }} variant="body2">New Clients + 5%</Typography>
-				</Box>
-				<Box height="150px" width="300px" sx={{ bgcolor: '#f4f4f4', padding: '1rem' }} marginLeft='2rem'>
+          <Typography sx={{ fontWeight: 'bold' }} variant="body1">32,441</Typography>
+          <Box sx={{ display: 'flex', color: 'teal', }}>
+            <Typography sx={{ flexGrow: 1 }} variant="body2">New Clients</Typography>
+            <Typography sx={{ paddingRight: '1rem' }}>+ 5%</Typography>
+          </Box>
+        </Box>
+				<Box height="125px" width="20%" sx={{ bgcolor: '#f4f4f4', padding: '1rem', display: 'flex', flexDirection: "column", justifyContent: 'space-evenly'  }} marginLeft='2rem'>
 					<TrafficIcon sx={{ color: 'teal'}} />
-          <Typography sx={{ fontWeight: 'bold' }} variant="body1">431,225</Typography>
-          <Typography sx={{ color: 'teal' }} variant="body2">Traffic Received + 43%</Typography>
-				</Box>
+          <Typography sx={{ fontWeight: 'bold' }} variant="body1">1.325,134</Typography>
+          <Box sx={{ display: 'flex', color: 'teal', }}>
+            <Typography sx={{ flexGrow: 1  }} variant="body2">Traffic Received</Typography>
+            <Typography sx={{ paddingRight: '1rem' }}>+ 43%</Typography>
+          </Box>
+        </Box>
 			</Box>
 
       {/* The Dashboards Part 2 */}
-			<Box display="flex" marginTop="2rem">
+			<Box display="flex" marginTop="2rem" height="100%">
+        
         {/* Revenue Generated */}
-        <Box bgcolor="#f4f4f4" height="450px" width="500px" padding="2rem"flexGrow={1}>
+        <Box bgcolor="#f4f4f4" height="55%" width="500px" padding="2rem"flexGrow={1}>
           <Typography variant="body1" fontWeight="bold">Revenue Generated</Typography>
           <Typography variant="h6" fontWeight="bold" color="teal">$59,342.32</Typography>
         </Box>
 
-        {/* Transactions */}
-        <Box marginLeft='2rem' bgcolor="#f4f4f4" padding="2rem" height="450px" width="350px">
+        {/* Recent Transactions */}
+        <Box marginLeft='2rem' bgcolor="#f4f4f4" padding="2rem" height="55%" width="350px">
           <Typography variant="body1" fontWeight="bold">Recent Transactions</Typography>
           <Divider sx={{ marginTop: '1rem', marginBottom: '1rem',  color: 'black', border: "2px solid black" }} />
 
-        {/*Transaction # 1  */}
-          <Box display='flex' marginTop="1rem">
+          {/*Transaction # 1  */}
+          <Box display='flex' marginTop="1rem" justifyContent="space-between">
             <Box>
               <Typography variant="body1" fontWeight="bold" color="teal">01e4dsa</Typography>
               <Typography variant="body1" fontWeight="bold"> johndoe</Typography>
             </Box>
-            <Box marginLeft="3rem">
+            <Box>
               <Typography variant="body1" fontWeight="bold">2021-09-01</Typography>
             </Box>
-            <Button variant="contained" sx={{ marginLeft: '4.5rem', color: 'white', backgroundColor: 'teal', borderRadius: '.5rem' }}>$43.95</Button>
+            <Button variant="contained" sx={{ marginLeft: '', color: 'white', backgroundColor: 'teal', borderRadius: '.5rem' }}>$43.95</Button>
           </Box>
           <Divider sx={{ marginTop: '1rem', marginBottom: '1rem',  color: 'black', border: "2px solid black" }} />
 
-        {/*Transaction # 2  */}
-          <Box display='flex' marginTop="1rem">
+          {/*Transaction # 2  */}
+          <Box display='flex' marginTop="1rem" justifyContent="space-between">
             <Box>
-              <Typography variant="body1" fontWeight="bold" color="teal">01e4dsa</Typography>
+              <Typography variant="body1" fontWeight="bold" color="teal">0315dsaa</Typography>
               <Typography variant="body1" fontWeight="bold">jackdower</Typography>
             </Box>
-            <Box marginLeft="2rem">
+            <Box>
               <Typography variant="body1" fontWeight="bold">2022-04-01</Typography>
             </Box>
-            <Button variant="contained" sx={{ marginLeft: '4.25rem', color: 'white', backgroundColor: 'teal', borderRadius: '.5rem' }}>$133.45</Button>
+            <Button variant="contained" sx={{ marginLeft: '', color: 'white', backgroundColor: 'teal', borderRadius: '.5rem' }}>$133.45</Button>
           </Box>
           <Divider sx={{ marginTop: '1rem', marginBottom: '1rem',  color: 'black', border: "2px solid black" }} />
 
-        {/*Transaction # 3  */}
-          <Box display='flex' marginTop="1rem">
+          {/*Transaction # 3  */}
+          <Box display='flex' marginTop="1rem" justifyContent="space-between">
             <Box>
               <Typography variant="body1" fontWeight="bold" color="teal">01e4dsa</Typography>
               <Typography variant="body1" fontWeight="bold">aberdohnny</Typography>
             </Box>
-            <Box marginLeft="1.25rem">
+            <Box>
               <Typography variant="body1" fontWeight="bold">2021-09-01</Typography>
             </Box>
-            <Button variant="contained" sx={{ marginLeft: '4.5rem', color: 'white', backgroundColor: 'teal', borderRadius: '.5rem' }}>$43.95</Button>
+            <Button variant="contained" sx={{ marginLeft: '', color: 'white', backgroundColor: 'teal', borderRadius: '.5rem' }}>$43.95</Button>
           </Box>
       </Box>
     </Box>
