@@ -57,16 +57,16 @@ const MainContent = () => (
 			</Box>
 
       {/* The Dashboards Part 2 */}
-			<Box display="flex" marginTop="2rem" height="100%">
+			<Box display="flex" marginTop="2rem" height="55%">
         
         {/* Revenue Generated */}
-        <Box bgcolor="#f4f4f4" height="55%" width="500px" padding="2rem"flexGrow={1}>
+        <Box bgcolor="#f4f4f4" height="100%" width="500px" padding="2rem"flexGrow={1}>
           <Typography variant="body1" fontWeight="bold">Revenue Generated</Typography>
           <Typography variant="h6" fontWeight="bold" color="teal">$59,342.32</Typography>
         </Box>
 
         {/* Recent Transactions */}
-        <Box marginLeft='2rem' bgcolor="#f4f4f4" padding="2rem" height="55%" width="350px">
+        <Box marginLeft='2rem' bgcolor="#f4f4f4" padding="2rem" height="100%" width="350px">
           <Typography variant="body1" fontWeight="bold">Recent Transactions</Typography>
           <Divider sx={{ marginTop: '1rem', marginBottom: '1rem',  color: 'black', border: "2px solid black" }} />
 
