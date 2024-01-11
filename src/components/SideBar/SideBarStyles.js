@@ -9,11 +9,7 @@ const classes = {
         minHeight: '100%',
         width: '25%',
         [theme.breakpoints.down("1000")]: {
-            width: '95%',
-            marginBottom: '1rem',
-        },
-        [theme.breakpoints.down("1000")]: {
-            width: '95%',
+            width: '98%',
             marginBottom: '1rem',
             padding: '.5rem',
         }
@@ -50,7 +46,7 @@ const classes = {
         justifyContent: 'center', 
         alignItems: 'center', 
         marginTop: '2rem',
-        [theme.breakpoints.down("600")]: {
+        [theme.breakpoints.down("1000")]: {
             paddingBottom: '1rem',
         }
     },

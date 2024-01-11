@@ -10,11 +10,12 @@ const classes = {
         overflow: "scroll",
         width: "75%",
         [theme.breakpoints.down("1000")]: {
-            width: '95%',
+            width: '98%',
             marginLeft: "0rem",
+            padding: ".5rem",
         },
         [theme.breakpoints.down("420")]: {
-            width: '95%',
+            width: '98%',
             marginLeft: "0rem",
             padding: ".5rem",
         },
