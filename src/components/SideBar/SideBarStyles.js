@@ -15,13 +15,13 @@ const classes = {
         [theme.breakpoints.down("1000")]: {
             width: '95%',
             marginBottom: '1rem',
-            padding: '.75rem',
+            padding: '.5rem',
         }
     },
     side_bar_hamburger_menu_icon: {
         marginBottom: '1rem',
         paddingLeft: '3rem',
-        [theme.breakpoints.down("400")]: {
+        [theme.breakpoints.down("600")]: {
             paddingLeft: '0rem',
         }
     },
@@ -49,7 +49,10 @@ const classes = {
         display: 'flex', 
         justifyContent: 'center', 
         alignItems: 'center', 
-        marginTop: '2rem'
+        marginTop: '2rem',
+        [theme.breakpoints.down("600")]: {
+            paddingBottom: '1rem',
+        }
     },
     side_bar_faq_content: {
         marginLeft: '1.5rem'
