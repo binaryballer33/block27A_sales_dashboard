@@ -1,12 +1,13 @@
-import { Grid } from "@mui/material";
+import { Box } from "@mui/material";
 import SideBar from "./SideBar/SideBar";
 import MainContent from "./MainContent/MainContent";
+import classes from './DashboardStyles.js'
 
 const Dashboard = () => (
-	<Grid container spacing={2}>
+	<Box sx={classes.dashboard}>
 		<SideBar />
 		<MainContent />
-	</Grid>
+	</Box>
 );
 
 export default Dashboard;

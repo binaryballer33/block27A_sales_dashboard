@@ -1,4 +1,8 @@
 // import { tokens } from "../theme";
+import LocalAtmIcon from '@mui/icons-material/LocalAtm';
+import PersonAddIcon from '@mui/icons-material/PersonAdd';
+import TrafficIcon from '@mui/icons-material/Traffic';
+
 
 export const mockTransactions = [
 	{
@@ -50,6 +54,27 @@ export const mockTransactions = [
 		cost: "133.45",
 	},
 ];
+
+export const mockMiniDashboards = [
+	{
+		icon: LocalAtmIcon,
+		sales_amount: "431,225",
+		header: "Sales Obtained",
+		percentage: "+ 21%"
+	},
+	{
+		icon: PersonAddIcon,
+		sales_amount: "32,441",
+		header: "New Clients",
+		percentage: "+ 5%"
+	},
+	{
+		icon: TrafficIcon,
+		sales_amount: "12,345",
+		header: "Traffic Received",
+		percentage: "+ 43%"
+	},
+]
 
 export const mockBarData = [
 	{

@@ -1,11 +1,9 @@
-import { Box } from "@mui/material";
-import Dashboard from "./components/Dashboard"
-import "./App.css";
+import Dashboard from "./components/Dashboard";
 
 function App() {
-    return (
-      <Box className="container"><Dashboard /></Box>
-    );
+	return (
+		<Dashboard />
+	);
 }
 
 export default App;
