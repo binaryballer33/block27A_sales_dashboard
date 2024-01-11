@@ -4,7 +4,7 @@ const theme = createTheme();
 
 const classes = {
     main_content_paper_container: {
-        minHeight: '100%',
+        height: '100%',
         marginLeft: "1rem",
         padding: "1.5rem",
         overflow: "scroll",
@@ -66,7 +66,7 @@ const classes = {
         backgroundColor: "#f4f4f4", 
         padding: "2rem",
         flexGrow: "1",
-        height: "350px",
+        height: "auto",
         [theme.breakpoints.down("1000")]: {
             width: "400px",
             maxHeight: "200px",
@@ -85,13 +85,14 @@ const classes = {
         marginLeft: '2rem', 
         backgroundColor: "#f4f4f4",
         padding: "2rem",
-        height: "350px",
+        height: "auto",
         width: "325px",
         overflow: "scroll",
         [theme.breakpoints.down("1000")]: {
             width: "400px",
             marginTop: "1rem",
             marginLeft: "0rem",
+            maxHeight: "350px",
         },
         [theme.breakpoints.down("md")]: {
             marginLeft: "0rem",
