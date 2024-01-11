@@ -7,6 +7,9 @@ const classes = {
         display: "flex",
         minWidth: '100vw',
         minHeight: '100vh',
+        [theme.breakpoints.down("1000")]: {
+            flexDirection: 'column',
+        }
     },
 }
 

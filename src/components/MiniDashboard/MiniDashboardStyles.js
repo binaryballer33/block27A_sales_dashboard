@@ -10,11 +10,14 @@ const classes = {
         backgroundColor: '#f4f4f4', 
         padding: '1rem', 
         height:"125px", 
-        width: "250px",
-        [theme.breakpoints.down("md")]: {
+        width: "25%",
+        [theme.breakpoints.down("1000")]: {
+            placeItems: "center",
+        },
+        [theme.breakpoints.down("600")]: {
             marginLeft: "0rem",
             marginTop: "1rem",
-            minWidth: "350px",
+            minWidth: "300px",
             placeItems: "center",
         }
     },
