@@ -8,7 +8,6 @@ const classes = {
     },
     side_bar_hamburger_menu_icon: {
         marginBottom: '1rem',
-        paddingLeft: { xs: '0rem', md: '3rem' },
     },
     side_bar_header: {
         textAlign: 'center',
@@ -27,7 +26,7 @@ const classes = {
         alignItems: 'center'
     },
     side_bar_home_content: {
-        color: "rebeccapurple",
+        color: "darkslategray",
         marginLeft: '1.5rem', 
     },
     side_bar_faq_container: {
