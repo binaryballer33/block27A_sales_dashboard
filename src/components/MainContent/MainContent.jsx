@@ -41,7 +41,12 @@ const MainContent = () => (
 
       {/* Recent Transactions */}
       <Box sx={classes.main_content_dashboard_recent_transactions_container}>
-        <Typography variant="body1" fontWeight="bold">Recent Transactions</Typography>
+        <Typography variant="body1" fontWeight="bold" textAlign="center">Recent Transactions</Typography>
+        <Box sx={classes.main_content_dashboard_recent_transactions_column_names_container}>
+            <Typography variant="body1" fontWeight="bold">User / Id</Typography>
+            <Typography variant="body1" fontWeight="bold">Date</Typography>
+            <Typography variant="body1" fontWeight="bold">Cost</Typography>
+          </Box>
         <Divider sx={classes.main_content_divider} />
 
         {/* All Recent Transactions */}
