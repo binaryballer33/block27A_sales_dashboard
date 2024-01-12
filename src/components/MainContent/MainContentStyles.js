@@ -21,7 +21,7 @@ const classes = {
         marginBottom: "2.5rem",
         textAlign: { xs: "center", lg: "left" },
     },
-    main_content_dashboard_sales_client_traffic: {
+    main_content_dashboard_sales_client_traffic_container: {
         display: "flex",
         overflow: "scroll",
         width: "100%",

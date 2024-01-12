@@ -17,7 +17,7 @@ const MainContent = () => (
     <Typography variant="body1" sx={classes.main_content_sub_header}>Welcome To Your Dashboard</Typography>
 
     {/* The Mini Dashboards */}
-    <Box sx={classes.main_content_dashboard_sales_client_traffic} >
+    <Box sx={classes.main_content_dashboard_sales_client_traffic_container} >
       {mockMiniDashboards.map((miniDashboard, index) => (
         <MiniDashboard 
           key={index} 
