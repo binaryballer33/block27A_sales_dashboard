@@ -1,4 +1,4 @@
-import { Box, Paper, Typography, Button, Divider } from "@mui/material";
+import { Box, Paper, Typography, Button, Divider, IconButton } from "@mui/material";
 import WbSunnyOutlinedIcon from "@mui/icons-material/WbSunnyOutlined";
 import MiniDashboard from "../MiniDashboard/MiniDashboard";
 import { mockMiniDashboards, mockTransactions } from "../../assets/mockData";
@@ -9,7 +9,7 @@ const MainContent = () => (
     
     {/* The Component Icon */}
     <Box sx={classes.main_content_icon}>
-      <WbSunnyOutlinedIcon />
+      <IconButton color="primary"><WbSunnyOutlinedIcon /></IconButton>
     </Box>
 
     {/* The Component Headers */}
