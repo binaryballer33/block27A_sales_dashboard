@@ -8,7 +8,6 @@ const classes = {
     },
     side_bar_hamburger_menu_icon: {
         marginBottom: '1rem',
-        paddingLeft: { xs: '0rem', md: '3rem' },
     },
     side_bar_header: {
         textAlign: 'center',
