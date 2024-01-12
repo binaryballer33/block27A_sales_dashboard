@@ -4,7 +4,6 @@ const classes = {
         marginLeft: { sm: "0rem", lg: "1rem"},
         padding: { sm: ".5rem", lg: "1.5rem"},
         overflow: "scroll",
-        width: { sm: "98%", lg: "75%"},
     },
     main_content_icon: {
         marginTop: { xs: ".5rem", sm: "0rem" },
@@ -25,7 +24,7 @@ const classes = {
         display: "flex",
         overflow: "scroll",
         width: "100%",
-        justifyContent: { xs: "center", lg: "start" },
+        justifyContent: { xs: "space-around", lg: "start" },
         flexDirection: { xs: "column", md: "row" },
         placeItems: { xs: "center", lg: "start" },
     },

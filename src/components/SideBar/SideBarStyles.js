@@ -3,7 +3,6 @@ const classes = {
         backgroundColor: '#f4f4f4',
         marginBottom: { xs: '1rem', lg: '0rem' },
         padding: { xs: '.5rem', lg: '1.5rem' },
-        width: { xs: "98%", lg: "25%" },
         minHeight: '100%',
     },
     side_bar_hamburger_menu_icon: {
