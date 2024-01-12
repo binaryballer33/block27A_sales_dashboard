@@ -56,6 +56,11 @@ const classes = {
         width: { xs: "357px", md: "325px", lg: "325px" },
         overflow: "scroll",
     },
+    main_content_dashboard_recent_transactions_column_names_container: {
+        display: "flex", 
+        justifyContent: "space-between",
+        margin: "1rem 0rem",
+    },
     main_content_divider: {
         marginTop: '1rem', 
         marginBottom: '1rem',  
