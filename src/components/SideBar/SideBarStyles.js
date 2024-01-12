@@ -1,25 +1,14 @@
-import { createTheme } from "@mui/material";
-
-const theme = createTheme();
-
 const classes = {
     side_bar_paper_container: {
         backgroundColor: '#f4f4f4',
-        padding: '1.5rem',
+        marginBottom: { xs: '1rem', lg: '0rem' },
+        padding: { xs: '.5rem', lg: '1.5rem' },
+        width: { xs: "98%", lg: "25%" },
         minHeight: '100%',
-        width: '25%',
-        [theme.breakpoints.down("1000")]: {
-            width: '98%',
-            marginBottom: '1rem',
-            padding: '.5rem',
-        }
     },
     side_bar_hamburger_menu_icon: {
         marginBottom: '1rem',
-        paddingLeft: '3rem',
-        [theme.breakpoints.down("600")]: {
-            paddingLeft: '0rem',
-        }
+        paddingLeft: { xs: '0rem', md: '3rem' },
     },
     side_bar_header: {
         textAlign: 'center',
@@ -46,9 +35,7 @@ const classes = {
         justifyContent: 'center', 
         alignItems: 'center', 
         marginTop: '2rem',
-        [theme.breakpoints.down("1000")]: {
-            paddingBottom: '1rem',
-        }
+        paddingBottom: { xs: '1rem', lg: '0rem' },
     },
     side_bar_faq_content: {
         marginLeft: '1.5rem'
