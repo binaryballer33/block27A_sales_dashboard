@@ -6,15 +6,15 @@ import "./index.css";
 
 const theme = createTheme({
 	breakpoints: {
-		values: { xs: 0, sm: 350, md: 600, lg: 900, xl: 1200 },
+		values: { xs: 0, sm: 350, md: 600, lg: 1000, xl: 1200 },
 	},
-  palette: {
-    primary: {
-      main: "#008080",
-      dark: "#045D5D",
-      light: "#00ADAD",
-    },
-  },
+	palette: {
+		primary: {
+			main: "#008080",
+			dark: "#045D5D",
+			light: "#00ADAD",
+		},
+	},
 	components: {
 		MuiButton: {
 			styleOverrides: {
