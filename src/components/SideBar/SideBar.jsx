@@ -7,7 +7,7 @@ const SideBar = () => (
 	<Grid item xs={12} lg={3}>
 		<Paper elevation={3} sx={classes.side_bar_paper_container}>
 			<IconButton color="primary"><MenuIcon sx={classes.side_bar_hamburger_menu_icon}/></IconButton>
-			<Typography variant="h3" sx={classes.side_bar_header}>MandyTEC LLC</Typography>
+			<Typography variant="h1" sx={classes.side_bar_header}>MandyTEC LLC</Typography>
 			<Typography variant="h6" sx={classes.side_bar_sub_header}>Dashboard Owner</Typography>
 			<Box sx={classes.side_bar_home_container}>
 				<IconButton color="primary"><HomeOutlinedIcon /></IconButton>
