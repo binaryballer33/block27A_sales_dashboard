@@ -1,7 +1,5 @@
 # Sales Dashboard
 
-## Just A Page I Built To Practice My MUI Skills
+## Just A Page I Built To Practice My MUI 5 Skills
 
-- Structured The Page Using FlexBox 
-- Next Going To Rebuild Using CSS Grid
-- Also going to stop using `theme.breakpoint.down/up` and use this method `width: { xs: "100%", md: "50%", lg: "33%" }`
+- Built The Dashboard Using FlexBox, Then Re-Built The Page Using CSS Grid, Created Separate Branches For Both Flebox and CSS Grid
